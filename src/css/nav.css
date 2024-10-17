@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.top-pokedevs {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.logo-pokedev {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    
+}
+
+.img-logo-poke {
+    margin: 0 5px;
+    height: 70px;
+}

@@ -1,0 +1,14 @@
+.clock{
+    display: flex;
+    gap: 3px;
+}
+
+.clock span{
+    display: flex;
+    align-items: itens;
+    gap: 3px;
+}
+
+#seconds{
+    display: none;
+}

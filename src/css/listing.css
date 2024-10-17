@@ -1,0 +1,57 @@
+.pokedevs{
+    display: flex;
+    gap: px;
+    padding: 30px 0px;
+}
+
+.listing {
+    max-width: 300px;
+}
+
+.listing .pokedev img{
+    width: 25%;  
+}
+
+.listing .pokedev {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-top-right-radius: 50px;
+    min-height: 70px;
+    transition: 0.15 ease-in-out;
+
+}
+
+.listing .pokedev.list-electric{
+    background-color: #ffe600;
+}
+
+.listing .pokedev.list-fire{
+    background-color: #fdc584;
+}
+
+.listing .pokedev.list-water{
+    background-color: #3f92ff;
+}
+
+.listing .pokedev.list-fairy{
+    background-color: #ff6fc8;
+}
+
+.listing .pokedev:hover {
+    transform: scale(1.05);
+}
+
+.listing .pokedev span {
+    padding-right: 20px;
+}
+
+.listing .pokedev.active {
+    background-image: url(../img/cloud_background.gif);
+    opacity: 90%;
+    background-size: cover;
+    background-position: center;
+}
